@@ -4,8 +4,8 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=C9D1D9&center=true&vCenter=true&multiline=true&width=500&height=80&lines=AI+Developer;Human+%2B+AI+Collaboration;Measure+everything.+Improve+every+project.)](https://deiby.dev)
 
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_4.6-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
-[![OpenCode](https://img.shields.io/badge/OpenCode-DeepSeek_v4-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_|_Sonnet_|_Haiku-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
+[![OpenCode Go](https://img.shields.io/badge/OpenCode_Go-Multi--Model-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
 [![ClaudeStat](https://img.shields.io/badge/ClaudeStat-npm_package-16213e?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@statforge/claudestat)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-deiby.dev-e94560?style=flat-square&logo=safari&logoColor=white)](https://deiby.dev)
@@ -55,7 +55,7 @@
 |------|------|
 | **Claude Code** | Primary environment |
 | | Opus 4.6, Sonnet 4.6, Haiku 4.5 |
-| **OpenCode** | Multi-model testing |
+| **OpenCode Go** | Multi-model testing |
 | | DeepSeek v4 Flash, GLM-5, Mimo v2.5 |
 
 </td>
