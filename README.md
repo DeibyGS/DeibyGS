@@ -30,14 +30,14 @@
 
 | | Metric | Value |
 |:---:|--------|-------|
-| <img width="16" src="https://cdn.simpleicons.org/github/white"> | Active development period | January 2026 -- present |
-| <img width="16" src="https://cdn.simpleicons.org/git/white"> | Total commits | 1,068+ |
-| <img width="16" src="https://cdn.simpleicons.org/githubactions/white"> | Pull requests | 343+ |
-| <img width="16" src="https://cdn.simpleicons.org/clockify/white"> | Tracked development hours | 1,000+ |
-| <img width="16" src="https://cdn.simpleicons.org/anthropic/white"> | AI sessions | 1,517+ |
-| <img width="16" src="https://cdn.simpleicons.org/openai/white"> | Models used | 7 across 2 tools |
-| <img width="16" src="https://cdn.simpleicons.org/gnubash/white"> | Custom skills, commands and agents | 50+ |
-| <img width="16" src="https://cdn.simpleicons.org/hook/white"> | Automated hooks | 13 |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=github&logoColor=white) | Active development period | January 2026 -- present |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=git&logoColor=white) | Total commits | 1,068+ |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=githubactions&logoColor=white) | Pull requests | 343+ |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=clockify&logoColor=white) | Tracked development hours | 1,000+ |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=anthropic&logoColor=white) | AI sessions | 1,517+ |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=openai&logoColor=white) | Models used | 7 across 2 tools |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=gnubash&logoColor=white) | Custom skills, commands and agents | 50+ |
+| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=snapcraft&logoColor=white) | Automated hooks | 13 |
 
 </div>
 
