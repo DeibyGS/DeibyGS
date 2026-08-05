@@ -138,14 +138,6 @@ Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
 | [Portfolio](https://github.com/DeibyGS/portfolio) | Tailwind, i18n | 43 | 13 | Active |
 | [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android, OCR | 1 | -- | In progress |
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeibyGS&show_icons=true&theme=transparent&hide_border=true&title_color=e94560&icon_color=e94560&text_color=C9D1D9&ring_color=e94560)](https://github.com/DeibyGS)
-
-</div>
-
 <details>
 <summary><strong>Education and Experience</strong></summary>
 <br>
