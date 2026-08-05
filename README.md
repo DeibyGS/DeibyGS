@@ -151,21 +151,23 @@ Guardrails that enforce engineering standards at every step:
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
-## Engineering Workflow
+## Spec-Driven Development (SDD)
+
+Every feature starts with a specification, never with code. The spec defines scope, contracts, edge cases, and acceptance criteria before a single line is written. This is enforced by automated hooks -- not discipline alone.
 
 ```
-Idea --> Research --> Architecture (human) --> Spec (SDD) --> Branch
-  --> AI Pair Programming --> Human Review --> Testing --> PR (max 400 lines)
-    --> Merge to main --> Documentation
+Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
 ```
 
 > *"Human owns architecture. AI accelerates implementation. Measure everything."*
 
-- Every change goes through a branch and PR -- never commit to main
-- Work-unit commits: tests and code ship together, never separately
-- Spec-Driven Development for any feature touching 3+ files
-- PR budget enforced at 400 lines -- larger changes split into chained PRs
-- Architecture Decision Records document every significant technical choice
+| Rule | How it is enforced |
+|------|-------------------|
+| Spec before code | Hook blocks multi-file changes without prior SDD analysis |
+| Branch-only development | Hook blocks writes to main/master |
+| PR budget: 400 lines | Hook warns on exceed, `/chained-pr` splits into stacked PRs |
+| Tests ship with code | Work-unit commits -- never by file type |
+| Architecture decisions | ADRs documented in each project |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
