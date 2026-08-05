@@ -2,10 +2,7 @@
 
 # Deiby Gorrin
 
-**AI Developer**
-
-Building production software through Human + AI collaboration.<br>
-Measure everything. Learn continuously. Improve every project.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=C9D1D9&center=true&vCenter=true&multiline=true&width=500&height=80&lines=AI+Developer;Human+%2B+AI+Collaboration;Measure+everything.+Improve+every+project.)](https://deiby.dev)
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_4.6-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
 [![OpenCode](https://img.shields.io/badge/OpenCode-DeepSeek_v4-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
@@ -17,32 +14,52 @@ Measure everything. Learn continuously. Improve every project.
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+
+### Currently working on
+
+- Building **WodRival** -- a competition management platform for CrossFit boxes with real-time scoring
+- Developing premium subscription features with Stripe integration and role-based access control
+- Experimenting with multi-model workflows: Claude Code as primary, OpenCode with DeepSeek for comparison
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Metrics
 
-| Metric | Value |
-|--------|-------|
-| Active development period | January 2026 -- present |
-| Projects | 7 |
-| Total commits | 1,068+ |
-| Pull requests | 343+ |
-| Tracked development hours | 1,000+ |
-| AI sessions | 1,517+ |
-| Models used | 7 across 2 tools |
-| Custom skills, commands and agents | 50+ |
-| Automated hooks | 13 |
+<div align="center">
 
----
+| | Metric | Value |
+|:---:|--------|-------|
+| <img width="16" src="https://cdn.simpleicons.org/github/white"> | Active development period | January 2026 -- present |
+| <img width="16" src="https://cdn.simpleicons.org/git/white"> | Total commits | 1,068+ |
+| <img width="16" src="https://cdn.simpleicons.org/githubactions/white"> | Pull requests | 343+ |
+| <img width="16" src="https://cdn.simpleicons.org/clockify/white"> | Tracked development hours | 1,000+ |
+| <img width="16" src="https://cdn.simpleicons.org/anthropic/white"> | AI sessions | 1,517+ |
+| <img width="16" src="https://cdn.simpleicons.org/openai/white"> | Models used | 7 across 2 tools |
+| <img width="16" src="https://cdn.simpleicons.org/gnubash/white"> | Custom skills, commands and agents | 50+ |
+| <img width="16" src="https://cdn.simpleicons.org/hook/white"> | Automated hooks | 13 |
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## AI Development Stack
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### Tools
 
-| Tool | Role | Models |
-|------|------|--------|
-| Claude Code | Primary development environment | Opus 4.6, Sonnet 4.6, Haiku 4.5 |
-| OpenCode | Secondary environment, multi-model testing | DeepSeek v4 Flash, GLM-5, DeepSeek v4 Pro, Mimo v2.5 |
+| Tool | Role |
+|------|------|
+| **Claude Code** | Primary environment |
+| | Opus 4.6, Sonnet 4.6, Haiku 4.5 |
+| **OpenCode** | Multi-model testing |
+| | DeepSeek v4 Flash, GLM-5, Mimo v2.5 |
+
+</td>
+<td width="50%" valign="top">
 
 ### MCP Servers
 
@@ -52,6 +69,10 @@ Measure everything. Learn continuously. Improve every project.
 ![Engram](https://img.shields.io/badge/Engram-MCP-1a1a2e?style=flat-square)
 ![Context7](https://img.shields.io/badge/Context7-MCP-1a1a2e?style=flat-square)
 ![Gmail](https://img.shields.io/badge/Gmail-MCP-1a1a2e?style=flat-square)
+
+</td>
+</tr>
+</table>
 
 <details>
 <summary><strong>Custom Skills and Commands -- Claude Code</strong></summary>
@@ -128,7 +149,7 @@ Guardrails that enforce engineering standards at every step:
 
 </details>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Engineering Workflow
 
@@ -138,14 +159,15 @@ Idea --> Research --> Architecture (human) --> Spec (SDD) --> Branch
     --> Merge to main --> Documentation
 ```
 
-- Human owns architecture, AI accelerates implementation
+> *"Human owns architecture. AI accelerates implementation. Measure everything."*
+
 - Every change goes through a branch and PR -- never commit to main
 - Work-unit commits: tests and code ship together, never separately
 - Spec-Driven Development for any feature touching 3+ files
 - PR budget enforced at 400 lines -- larger changes split into chained PRs
 - Architecture Decision Records document every significant technical choice
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Projects
 
@@ -159,7 +181,7 @@ Idea --> Research --> Architecture (human) --> Spec (SDD) --> Branch
 | [Portfolio](https://github.com/DeibyGS/portfolio) | Tailwind, i18n | 43 | 13 | Active |
 | [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android, OCR | 1 | -- | In progress |
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Tech Stack
 
@@ -186,7 +208,7 @@ Idea --> Research --> Architecture (human) --> Spec (SDD) --> Branch
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Education
 
@@ -207,7 +229,7 @@ Idea --> Research --> Architecture (human) --> Spec (SDD) --> Branch
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Experience
 
@@ -219,20 +241,31 @@ Developer on **Conductor**, a modular multi-tenant ERP with microservices. Respo
 - Refactored to centralized database and migrated to multi-tenant architecture
 - Collaborated with 11-person team using GitLab, Docker, Kafka, FastAPI
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 <div align="center">
 
-Every repository includes an **AI Development Benchmark** section documenting models used, development time, and the division between human-designed and AI-assisted components.
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeibyGS&show_icons=true&theme=transparent&hide_border=true&title_color=e94560&icon_color=e94560&text_color=C9D1D9&ring_color=e94560)](https://github.com/DeibyGS)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+
+<div align="center">
+
+Every repository includes an **AI Development Benchmark** section documenting models used,<br>
+development time, and the division between human-designed and AI-assisted components.
 
 For development metrics and methodology across all projects, see **[ClaudeStat](https://github.com/DeibyGS/claudestat)**.
 
 [![npm](https://img.shields.io/npm/v/@statforge/claudestat?style=flat-square&color=1a1a2e&label=ClaudeStat)](https://www.npmjs.com/package/@statforge/claudestat)
 
----
+<br>
 
-*All projects follow a human-in-the-loop workflow. AI assists with implementation, debugging, and refactoring.*<br>
-*Architecture decisions, code reviews, and technical direction remain under human supervision.*
+> *All projects follow a human-in-the-loop workflow. AI assists with implementation, debugging, and refactoring.*
+> *Architecture decisions, code reviews, and technical direction remain under human supervision.*
+
+<br>
 
 *Madrid, Spain -- Available for remote or on-site work*
 
