@@ -18,9 +18,9 @@
 
 ### Currently working on
 
-- Building **WodRival** -- a competition management platform for CrossFit boxes with real-time scoring
-- Developing premium subscription features with Stripe integration and role-based access control
-- Experimenting with multi-model workflows: Claude Code as primary, OpenCode with DeepSeek for comparison
+- Building **WodRival** -- a competitive fitness platform with Norse mythology theming where Warriors compete in Battles across CrossFit, HYROX, and functional training. RPG-inspired progression system where every workout builds your Viking Saga toward Valhalla. Full DDD architecture documented in The Edda
+- Designing the **Progression Engine** -- XP, ranks, achievements, and seasonal rewards that transform individual Battles into a long-term competitive journey
+- Experimenting with multi-model workflows: Claude Code as primary, OpenCode Go with DeepSeek for comparison
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
