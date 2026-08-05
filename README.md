@@ -2,10 +2,12 @@
 
 # Deiby Gorrin
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=C9D1D9&center=true&vCenter=true&width=650&height=35&lines=AI-First+Software+Engineer;Human+decisions.+AI+acceleration.;Measure+everything.+Improve+every+project.)](https://deiby.dev)
+**AI-First Software Engineer**
 
 I build production software using Spec-Driven Development,<br>
 custom AI workflows, and measurable engineering practices.
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=3000&pause=1500&color=8b949e&center=true&vCenter=true&width=580&height=25&lines=Human+decisions.+AI+acceleration.+Everything+measured.;Spec+before+code.+Architecture+stays+human.;1%2C000%2B+hours.+7+projects.+50%2B+custom+tools.)](https://deiby.dev)
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_|_Sonnet_|_Haiku-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
 [![OpenCode Go](https://img.shields.io/badge/OpenCode_Go-Multi--Model-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
