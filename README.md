@@ -1,136 +1,239 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=%3E+Deiby+Gorrin;%3E+Fullstack+Developer;%3E+DAM+%2B+Master+Full+Stack;%3E+Disponible+para+oportunidades)](https://deiby.dev)
+# Deiby Gorrin
 
-</div>
+**AI Developer**
 
-<div align="center">
+Building production software through Human + AI collaboration.<br>
+Measure everything. Learn continuously. Improve every project.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-deiby.dev-00FF41?style=for-the-badge&logo=safari&logoColor=white)](https://deiby.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-deibygorrin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deibygorrin)
-[![Email](https://img.shields.io/badge/Email-deibygorrin%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deibygorrin@gmail.com)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_4.6-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
+[![OpenCode](https://img.shields.io/badge/OpenCode-DeepSeek_v4-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
+[![ClaudeStat](https://img.shields.io/badge/ClaudeStat-npm_package-16213e?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@statforge/claudestat)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-deiby.dev-e94560?style=flat-square&logo=safari&logoColor=white)](https://deiby.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-deibygorrin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deibygorrin)
+[![Email](https://img.shields.io/badge/Email-deibygorrin@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:deibygorrin@gmail.com)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## Metrics
 
-Soy **Deiby Gorrin**, desarrollador fullstack con formación completada en **DAM** (Desarrollo de Aplicaciones Multiplataforma) y **Master Full Stack**, afianzado en ecosistemas Oracle (SQL, OCI, EPM). Actualmente realizo prácticas en empresa en un ERP modular con microservicios.
-
-Busco **mi primer empleo tech** en desarrollo de software donde pueda aplicar stack moderno y crecer profesionalmente.
-
-> 12+ años de experiencia previa en entornos empresariales me dan una perspectiva diferente sobre cómo el software impacta procesos reales.
+| Metric | Value |
+|--------|-------|
+| Active development period | January 2026 -- present |
+| Projects | 7 |
+| Total commits | 1,068+ |
+| Pull requests | 343+ |
+| Tracked development hours | 1,000+ |
+| AI sessions | 1,517+ |
+| Models used | 7 across 2 tools |
+| Custom skills, commands and agents | 50+ |
+| Automated hooks | 13 |
 
 ---
 
-## 🛠 Tech Stack
+## AI Development Stack
+
+### Tools
+
+| Tool | Role | Models |
+|------|------|--------|
+| Claude Code | Primary development environment | Opus 4.6, Sonnet 4.6, Haiku 4.5 |
+| OpenCode | Secondary environment, multi-model testing | DeepSeek v4 Flash, GLM-5, DeepSeek v4 Pro, Mimo v2.5 |
+
+### MCP Servers
+
+![Custom-built](https://img.shields.io/badge/ClaudeStat-custom--built-e94560?style=flat-square)
+![GitHub](https://img.shields.io/badge/GitHub-MCP-1a1a2e?style=flat-square)
+![Supabase](https://img.shields.io/badge/Supabase-MCP-1a1a2e?style=flat-square)
+![Engram](https://img.shields.io/badge/Engram-MCP-1a1a2e?style=flat-square)
+![Context7](https://img.shields.io/badge/Context7-MCP-1a1a2e?style=flat-square)
+![Gmail](https://img.shields.io/badge/Gmail-MCP-1a1a2e?style=flat-square)
+
+<details>
+<summary><strong>Custom Skills and Commands -- Claude Code</strong></summary>
+<br>
+
+12 workflow commands + 15 knowledge skills (11 global, 4 project-specific)
+
+| Command | Purpose |
+|---------|---------|
+| `sdd` | Spec-Driven Development -- write specs before code |
+| `dev` | Development pipeline orchestrator |
+| `orchestrate` | Multi-agent task orchestration |
+| `multi-agent-explore` | Parallel code review with 3 agents |
+| `git` | Structured git operations with safety checks |
+| `chained-pr` | Split large PRs into reviewable chains |
+| `day-start` / `day-close` | Session context loading and persistence |
+| `checkpoint` | Context preservation during long sessions |
+| `simplify-lean` | Post-edit code simplification |
+| `cognitive-doc-design` | Documentation with low cognitive load |
+
+</details>
+
+<details>
+<summary><strong>Custom Skills and Commands -- OpenCode</strong></summary>
+<br>
+
+8 skills + 5 commands + 4 specialized agents
+
+| Component | Details |
+|-----------|---------|
+| Skills | sdd, dev, git, day-start, day-close, checkpoint, simplify-lean, engram-save, bug-hunter |
+| Commands | dev, git, day-start, day-close, review, recall, sdd, simplify, test |
+| Agents | code-reviewer, database-expert, scrum-master, tester |
+
+</details>
+
+<details>
+<summary><strong>Custom Agents -- Claude Code (12)</strong></summary>
+<br>
+
+Specialized agents for delegated tasks within the development pipeline:
+
+| Agent | Role |
+|-------|------|
+| `dev-pipeline` | Feature development orchestration |
+| `orchestrator` | Multi-phase task coordination |
+| `post-merge-checker` | Post-merge validation |
+| `ui-ux-designer` | Interface design decisions |
+| `frontend-dev` | Frontend implementation |
+| `backend-dev` | Backend implementation |
+| `database-dev` | Database design and queries |
+| `tester` | Test writing and validation |
+| `quality-docs` | Documentation quality review |
+| `scrum-master` | Task breakdown and prioritization |
+| `git` | Git operations and PR management |
+| `devops` | Infrastructure and deployment |
+
+</details>
+
+<details>
+<summary><strong>Automated Hooks (13 across 6 lifecycle events)</strong></summary>
+<br>
+
+Guardrails that enforce engineering standards at every step:
+
+| Event | What it does |
+|-------|-------------|
+| `PreToolUse` | Blocks writes to main/master, prevents `git add -A`, blocks force push and destructive commands |
+| `PostToolUse` | Reminds simplify-lean after logic changes, checks PR budget (max 400 lines), auto-formats with Prettier, detects read loops |
+| `SessionStart` | Auto-loads project context (HANDOFF.md), warns if on main branch |
+| `UserPromptSubmit` | Enforces SDD analysis before multi-file changes |
+| `PreCompact` | Saves branch and modified files before context compaction |
+| `Stop` | Alerts when context exceeds 250k tokens for checkpoint |
+
+</details>
+
+---
+
+## Engineering Workflow
+
+```
+Idea --> Research --> Architecture (human) --> Spec (SDD) --> Branch
+  --> AI Pair Programming --> Human Review --> Testing --> PR (max 400 lines)
+    --> Merge to main --> Documentation
+```
+
+- Human owns architecture, AI accelerates implementation
+- Every change goes through a branch and PR -- never commit to main
+- Work-unit commits: tests and code ship together, never separately
+- Spec-Driven Development for any feature touching 3+ files
+- PR budget enforced at 400 lines -- larger changes split into chained PRs
+- Architecture Decision Records document every significant technical choice
+
+---
+
+## Projects
+
+| Project | Stack | Commits | PRs | Status |
+|---------|-------|--------:|----:|--------|
+| [WodRival](https://github.com/DeibyGS/wodrival) | Next.js, Supabase, Tailwind | 498 | 237 | Active |
+| [ClaudeStat](https://github.com/DeibyGS/claudestat) | Node.js, SQLite, npm package | 173 | 60 | Active |
+| [Conductor](https://github.com/DeibyGS/conductor) | Python, Kafka, Docker | 165 | -- | Active |
+| [EvoluFit](https://github.com/DeibyGS/evolufit-mobile) | React Native, Node.js, React | 128 | 9 | Active |
+| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | Python, SQLite, Gmail API | 57 | 24 | Completed |
+| [Portfolio](https://github.com/DeibyGS/portfolio) | Tailwind, i18n | 43 | 13 | Active |
+| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android, OCR | 1 | -- | In progress |
+
+---
+
+## Tech Stack
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
-
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle_SQL-F80000?style=flat&logo=oracle&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-
 </div>
 
 ---
 
-## 🚀 Featured Projects
-
-| Project | Description | Stack | Links |
-|---------|------------|-------|-------|
-| **ClaudeStat** | CLI + dashboard para trazabilidad y costes en Claude Code | TypeScript · Node.js · Express · React · SQLite | [GitHub](https://github.com/DeibyGS/claudestat) · [npm](https://www.npmjs.com/package/@statforge/claudestat) |
-| **gmail-ai-agent** | Asistente IA para clasificación automática de emails con Gemini | Python · FastAPI · React · Gemini API · Docker | [GitHub](https://github.com/DeibyGS/gmail-ai-agent) |
-| **EvolutFit** | App web + móvil de seguimiento de entrenamientos (TFG DAM) | React · React Native · Node.js · MongoDB | [GitHub](https://github.com/DeibyGS/EvolutFit) · [Demo](https://evolufit-frontend.vercel.app/) |
-| **wodrival** | Plataforma de gestión de competiciones WOD (CrossFit) | Next.js 16 · React 19 · TypeScript · Supabase | [GitHub](https://github.com/DeibyGS/wodrival) |
-| **Questionnary** | Cuestionarios interactivos con resultados en tiempo real | TypeScript · Vite · SCSS | [GitHub](https://github.com/DeibyGS/questionnary) · [Demo](https://questionnary.vercel.app/) |
-| **CatcherAuto** | Automatización Android con ML Kit para aceptar pedidos automáticamente | Kotlin · ML Kit · Accessibility Service | [GitHub](https://github.com/DeibyGS/CatcherAuto) |
-| **ElectroCycle** | Web de comparación de bicicletas eléctricas con SEO optimizado | TypeScript · Vite · SCSS · Swiper | [GitHub](https://github.com/DeibyGS/ElectroCycle) · [Site](https://www.eligetubike.com) |
-
----
-
-## 📚 Education
+## Education
 
 | Programme | Institution | Status |
 |-----------|------------|--------|
-| **Grado Superior DAM** — Desarrollo de Aplicaciones Multiplataforma | The Power · Madrid | Completado 2026 |
-| **Master Web Full Stack** | The Power · Madrid | Completado 2026 |
-| Usos Profesionales de la IA Generativa | BeJob · IBM | Completado |
-| Desarrollador Oracle SQL-PL/SQL | Cas-Training · Madrid | Completado |
-| Especialista Oracle EPM | Cas-Training · Madrid | Completado |
-| Confección y publicación de páginas web (IFCD0110) | Dabo Consulting | Completado |
-
-### Certifications
+| Grado Superior DAM | The Power, Madrid | Completed 2026 |
+| Master Web Full Stack | The Power, Madrid | Completed 2026 |
+| Professional Uses of Generative AI | BeJob, IBM | Completed |
+| Oracle SQL-PL/SQL Developer | Cas-Training, Madrid | Completed |
+| Oracle EPM Specialist | Cas-Training, Madrid | Completed |
 
 <div align="center">
 
-[![IBM AI Fundamentals](https://img.shields.io/badge/IBM-AI_Fundamentals-052FAD?style=flat&logo=ibm&logoColor=white&labelColor=555)](.)
-[![Oracle SQL 23ai](https://img.shields.io/badge/Oracle-Database_23ai_SQL_Certified_Associate-F80000?style=flat&logo=oracle&logoColor=white&labelColor=555)](.)
-[![OCI AI Foundations](https://img.shields.io/badge/Oracle-OCI_AI_Foundations_Associate-F80000?style=flat&logo=oracle&logoColor=white&labelColor=555)](.)
-[![OCI Data Science](https://img.shields.io/badge/Oracle-OCI_Data_Science_Professional-F80000?style=flat&logo=oracle&logoColor=white&labelColor=555)](.)
+[![IBM AI Fundamentals](https://img.shields.io/badge/IBM-AI_Fundamentals-052FAD?style=flat-square&logo=ibm&logoColor=white)](.)
+[![Oracle SQL 23ai](https://img.shields.io/badge/Oracle-SQL_23ai_Associate-F80000?style=flat-square&logo=oracle&logoColor=white)](.)
+[![OCI AI Foundations](https://img.shields.io/badge/Oracle-OCI_AI_Foundations-F80000?style=flat-square&logo=oracle&logoColor=white)](.)
+[![OCI Data Science](https://img.shields.io/badge/Oracle-OCI_Data_Science-F80000?style=flat-square&logo=oracle&logoColor=white)](.)
 
 </div>
 
 ---
 
-## 💼 Experience
+## Experience
 
-**Prácticas profesionales — Mercanza** *(2026)*
+**Internship -- Mercanza** (2026)
 
-Desarrollador en **Conductor**, un ERP modular multi-tenant con microservicios. Responsable del módulo de **ventas**:
-- Diseño e implementación de **Sales Emulator** (generador de facturas sintéticas → Kafka)
-- **Sales Manager** (consumidor Kafka → persistencia PostgreSQL con SQLAlchemy async)
-- Refactorización a BD centralizada + migración a arquitectura multi-tenant (TENANTS)
-- Colaboración con 11 personas en equipo con GitLab, Docker, Kafka, FastAPI
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeibyGS&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&ring_color=00FF41)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DeibyGS&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9)](https://github.com/anuraghazra/github-readme-stats)
-
-</div>
+Developer on **Conductor**, a modular multi-tenant ERP with microservices. Responsible for the sales module:
+- Designed and implemented **Sales Emulator** (synthetic invoice generator to Kafka)
+- Built **Sales Manager** (Kafka consumer with async PostgreSQL persistence via SQLAlchemy)
+- Refactored to centralized database and migrated to multi-tenant architecture
+- Collaborated with 11-person team using GitLab, Docker, Kafka, FastAPI
 
 ---
 
 <div align="center">
 
-### 📬 Let's connect
+Every repository includes an **AI Development Benchmark** section documenting models used, development time, and the division between human-designed and AI-assisted components.
 
-[![Email](https://img.shields.io/badge/deibygorrin@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deibygorrin@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/in/deibygorrin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deibygorrin)
-[![Portfolio](https://img.shields.io/badge/deiby.dev-00FF41?style=for-the-badge&logo=safari&logoColor=white)](https://deiby.dev)
+For development metrics and methodology across all projects, see **[ClaudeStat](https://github.com/DeibyGS/claudestat)**.
 
-*Madrid, España · Disponible para trabajo remoto o presencial*
+[![npm](https://img.shields.io/npm/v/@statforge/claudestat?style=flat-square&color=1a1a2e&label=ClaudeStat)](https://www.npmjs.com/package/@statforge/claudestat)
+
+---
+
+*All projects follow a human-in-the-loop workflow. AI assists with implementation, debugging, and refactoring.*<br>
+*Architecture decisions, code reviews, and technical direction remain under human supervision.*
+
+*Madrid, Spain -- Available for remote or on-site work*
 
 </div>
