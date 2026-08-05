@@ -18,15 +18,13 @@
 
 ### Currently working on
 
-- Building **WodRival** -- a competitive fitness platform with Norse mythology theming where Warriors compete in Battles across CrossFit, HYROX, and functional training. RPG-inspired progression system where every workout builds your Viking Saga toward Valhalla. Full DDD architecture documented in The Edda
+- Building **WodRival** -- a competitive fitness platform with Norse mythology theming where Warriors compete in Battles across CrossFit, HYROX, and functional training. RPG-inspired progression system where every workout builds your Viking Saga toward Valhalla
 - Designing the **Progression Engine** -- XP, ranks, achievements, and seasonal rewards that transform individual Battles into a long-term competitive journey
 - Experimenting with multi-model workflows: Claude Code as primary, OpenCode as secondary
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Metrics
-
-<div align="center">
 
 | | Metric | Value |
 |:---:|--------|-------|
@@ -39,46 +37,22 @@
 | ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=gnubash&logoColor=white) | Custom skills, commands and agents | 50+ |
 | ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=snapcraft&logoColor=white) | Automated hooks | 13 |
 
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
-
 ## AI Development Stack
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Tools
-
-| Tool | Role |
-|------|------|
-| **Claude Code** | Primary environment |
-| | Opus 4.6, Sonnet 4.6, Haiku 4.5 |
-| **OpenCode Go** | Multi-model testing |
-| | DeepSeek v4 Flash, GLM-5, Mimo v2.5 |
-
-</td>
-<td width="50%" valign="top">
-
-### MCP Servers
-
-![Custom-built](https://img.shields.io/badge/ClaudeStat-custom--built-e94560?style=flat-square)
-![GitHub](https://img.shields.io/badge/GitHub-MCP-1a1a2e?style=flat-square)
-![Supabase](https://img.shields.io/badge/Supabase-MCP-1a1a2e?style=flat-square)
-![Engram](https://img.shields.io/badge/Engram-MCP-1a1a2e?style=flat-square)
-![Context7](https://img.shields.io/badge/Context7-MCP-1a1a2e?style=flat-square)
-![Gmail](https://img.shields.io/badge/Gmail-MCP-1a1a2e?style=flat-square)
-
-</td>
-</tr>
-</table>
+| Component | Details |
+|-----------|---------|
+| **Claude Code** | Opus 4.6, Sonnet 4.6, Haiku 4.5 |
+| **OpenCode Go** | DeepSeek v4 Flash, GLM-5, Mimo v2.5 |
+| **MCP Servers** | ClaudeStat (custom-built), GitHub, Supabase, Engram, Context7, Gmail |
+| **Custom Skills** | 12 commands + 15 knowledge skills (Claude Code) · 8 skills + 5 commands (OpenCode) |
+| **Custom Agents** | 12 specialized agents (Claude Code) · 4 agents (OpenCode) |
+| **Automated Hooks** | 13 hooks across 6 lifecycle events enforcing SDD, branch safety, PR budget, formatting |
 
 <details>
-<summary><strong>Custom Skills and Commands -- Claude Code</strong></summary>
+<summary><strong>Full AI tooling breakdown</strong></summary>
 <br>
 
-12 workflow commands + 15 knowledge skills (11 global, 4 project-specific)
+**Commands -- Claude Code**
 
 | Command | Purpose |
 |---------|---------|
@@ -93,13 +67,7 @@
 | `simplify-lean` | Post-edit code simplification |
 | `cognitive-doc-design` | Documentation with low cognitive load |
 
-</details>
-
-<details>
-<summary><strong>Custom Skills and Commands -- OpenCode</strong></summary>
-<br>
-
-8 skills + 5 commands + 4 specialized agents
+**Commands -- OpenCode**
 
 | Component | Details |
 |-----------|---------|
@@ -107,13 +75,7 @@
 | Commands | dev, git, day-start, day-close, review, recall, sdd, simplify, test |
 | Agents | code-reviewer, database-expert, scrum-master, tester |
 
-</details>
-
-<details>
-<summary><strong>Custom Agents -- Claude Code (12)</strong></summary>
-<br>
-
-Specialized agents for delegated tasks within the development pipeline:
+**Agents -- Claude Code (12)**
 
 | Agent | Role |
 |-------|------|
@@ -121,8 +83,7 @@ Specialized agents for delegated tasks within the development pipeline:
 | `orchestrator` | Multi-phase task coordination |
 | `post-merge-checker` | Post-merge validation |
 | `ui-ux-designer` | Interface design decisions |
-| `frontend-dev` | Frontend implementation |
-| `backend-dev` | Backend implementation |
+| `frontend-dev` / `backend-dev` | Implementation |
 | `database-dev` | Database design and queries |
 | `tester` | Test writing and validation |
 | `quality-docs` | Documentation quality review |
@@ -130,22 +91,16 @@ Specialized agents for delegated tasks within the development pipeline:
 | `git` | Git operations and PR management |
 | `devops` | Infrastructure and deployment |
 
-</details>
-
-<details>
-<summary><strong>Automated Hooks (13 across 6 lifecycle events)</strong></summary>
-<br>
-
-Guardrails that enforce engineering standards at every step:
+**Hooks (13 across 6 lifecycle events)**
 
 | Event | What it does |
 |-------|-------------|
-| `PreToolUse` | Blocks writes to main/master, prevents `git add -A`, blocks force push and destructive commands |
-| `PostToolUse` | Reminds simplify-lean after logic changes, checks PR budget (max 400 lines), auto-formats with Prettier, detects read loops |
-| `SessionStart` | Auto-loads project context (HANDOFF.md), warns if on main branch |
+| `PreToolUse` | Blocks writes to main/master, prevents `git add -A`, blocks force push |
+| `PostToolUse` | Simplify-lean reminder, PR budget check (400 lines), auto-Prettier, read loop detection |
+| `SessionStart` | Auto-loads HANDOFF.md, warns if on main branch |
 | `UserPromptSubmit` | Enforces SDD analysis before multi-file changes |
 | `PreCompact` | Saves branch and modified files before context compaction |
-| `Stop` | Alerts when context exceeds 250k tokens for checkpoint |
+| `Stop` | Alerts when context exceeds 250k tokens |
 
 </details>
 
@@ -185,34 +140,17 @@ Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
-## Tech Stack
-
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeibyGS&show_icons=true&theme=transparent&hide_border=true&title_color=e94560&icon_color=e94560&text_color=C9D1D9&ring_color=e94560)](https://github.com/DeibyGS)
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+<details>
+<summary><strong>Education and Experience</strong></summary>
+<br>
 
-## Education
+**Education**
 
 | Programme | Institution | Status |
 |-----------|------------|--------|
@@ -222,18 +160,12 @@ Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
 | Oracle SQL-PL/SQL Developer | Cas-Training, Madrid | Completed |
 | Oracle EPM Specialist | Cas-Training, Madrid | Completed |
 
-<div align="center">
-
 [![IBM AI Fundamentals](https://img.shields.io/badge/IBM-AI_Fundamentals-052FAD?style=flat-square&logo=ibm&logoColor=white)](.)
 [![Oracle SQL 23ai](https://img.shields.io/badge/Oracle-SQL_23ai_Associate-F80000?style=flat-square&logo=oracle&logoColor=white)](.)
 [![OCI AI Foundations](https://img.shields.io/badge/Oracle-OCI_AI_Foundations-F80000?style=flat-square&logo=oracle&logoColor=white)](.)
 [![OCI Data Science](https://img.shields.io/badge/Oracle-OCI_Data_Science-F80000?style=flat-square&logo=oracle&logoColor=white)](.)
 
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
-
-## Experience
+**Experience**
 
 **Internship -- Mercanza** (2026)
 
@@ -243,31 +175,15 @@ Developer on **Conductor**, a modular multi-tenant ERP with microservices. Respo
 - Refactored to centralized database and migrated to multi-tenant architecture
 - Collaborated with 11-person team using GitLab, Docker, Kafka, FastAPI
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeibyGS&show_icons=true&theme=transparent&hide_border=true&title_color=e94560&icon_color=e94560&text_color=C9D1D9&ring_color=e94560)](https://github.com/DeibyGS)
-
-</div>
+</details>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 <div align="center">
-
-Every repository includes an **AI Development Benchmark** section documenting models used,<br>
-development time, and the division between human-designed and AI-assisted components.
 
 For development metrics and methodology across all projects, see **[ClaudeStat](https://github.com/DeibyGS/claudestat)**.
 
 [![npm](https://img.shields.io/npm/v/@statforge/claudestat?style=flat-square&color=1a1a2e&label=ClaudeStat)](https://www.npmjs.com/package/@statforge/claudestat)
-
-<br>
-
-> *All projects follow a human-in-the-loop workflow. AI assists with implementation, debugging, and refactoring.*
-> *Architecture decisions, code reviews, and technical direction remain under human supervision.*
-
-<br>
 
 *Madrid, Spain -- Available for remote or on-site work*
 
