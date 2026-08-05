@@ -31,11 +31,13 @@ custom AI workflows, and measurable engineering practices.
 | [EvoluFit](https://github.com/DeibyGS/evolufit-mobile) | Cross-platform fitness tracking app with offline sync. React Native, Node.js, MongoDB | 128 | 9 |
 | [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI-powered email classification and automated responses using Gemini API. Python, FastAPI | 57 | 24 |
 | [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design. Tailwind | 43 | 13 |
+| [applyr](https://github.com/DeibyGS/applyr) | CLI job application tracker for AI coding agents. 16 commands, configurable scoring, ATS CV generation. Published on PyPI. Python | 1 | -- |
 | [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation using pixel scanning and ML Kit OCR for order acceptance. Kotlin | 1 | -- |
 
 ### Currently working on
 
 - Designing the **Progression Engine** for WodRival -- XP, ranks, achievements, and seasonal rewards that transform individual Battles into a long-term competitive journey
+- Published **[applyr](https://github.com/DeibyGS/applyr)** on PyPI -- a job tracker CLI built from tracking 200+ real applications, designed to work with any AI coding agent
 - Experimenting with multi-model workflows: Claude Code as primary, OpenCode as secondary
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
@@ -62,7 +64,7 @@ Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
 
 ## Metrics
 
-1,000+ hours of AI-assisted engineering across 7 production projects. 1,500+ AI sessions. 1,068 commits. 343 pull requests. 7 models across 2 tools. 50+ custom skills, commands, and agents. 13 automated quality gates protecting branches, PRs, and architecture.
+1,000+ hours of AI-assisted engineering across 8 production projects. 1,500+ AI sessions. 1,068 commits. 343 pull requests. 7 models across 2 tools. 50+ custom skills, commands, and agents. 13 automated quality gates protecting branches, PRs, and architecture.
 
 All metrics tracked by [ClaudeStat](https://github.com/DeibyGS/claudestat), a custom-built MCP server and npm package.
 
@@ -174,6 +176,7 @@ Interested in AI-assisted engineering, developer tooling, or production software
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-deibygorrin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deibygorrin)
 [![Email](https://img.shields.io/badge/Email-deibygorrin@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:deibygorrin@gmail.com)
 [![npm](https://img.shields.io/npm/v/@statforge/claudestat?style=flat-square&color=1a1a2e&label=ClaudeStat)](https://www.npmjs.com/package/@statforge/claudestat)
+[![PyPI](https://img.shields.io/pypi/v/applyr?style=flat-square&color=1a1a2e&label=applyr)](https://pypi.org/project/applyr/)
 
 *Madrid, Spain -- Available for remote or on-site work*
 
