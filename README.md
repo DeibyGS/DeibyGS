@@ -25,12 +25,12 @@ custom AI workflows, and measurable engineering practices.
 
 | Project | Description | Commits | PRs |
 |---------|-------------|--------:|----:|
-| [WodRival](https://github.com/DeibyGS/wodrival) | Competitive fitness platform with Norse mythology theming, RPG progression, and seasonal rankings. Next.js, Supabase, Tailwind | 498 | 237 |
+| WodRival | Competitive fitness platform with Norse mythology theming, RPG progression, and seasonal rankings. Next.js, Supabase, Tailwind | 498 | 237 |
 | [ClaudeStat](https://github.com/DeibyGS/claudestat) | CLI + dashboard for tracking AI development sessions, token usage, and engineering metrics. Published on npm | 173 | 60 |
 | [Conductor](https://github.com/DeibyGS/conductor) | Modular multi-tenant ERP with Kafka microservices. Sales emulator and async consumer pipeline. Python, Docker | 165 | -- |
 | [EvoluFit](https://github.com/DeibyGS/evolufit-mobile) | Cross-platform fitness tracking app with offline sync. React Native, Node.js, MongoDB | 128 | 9 |
 | [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI-powered email classification and automated responses using Gemini API. Python, FastAPI | 57 | 24 |
-| [Portfolio](https://github.com/DeibyGS/portfolio) | Personal site with i18n and responsive design. Tailwind | 43 | 13 |
+| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design. Tailwind | 43 | 13 |
 | [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation using pixel scanning and ML Kit OCR for order acceptance. Kotlin | 1 | -- |
 
 ### Currently working on
