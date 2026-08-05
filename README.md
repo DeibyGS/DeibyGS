@@ -2,7 +2,12 @@
 
 # Deiby Gorrin
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=C9D1D9&center=true&vCenter=true&multiline=true&width=650&height=80&lines=AI+Developer;Human+%2B+AI+Collaboration;Measure+everything.+Improve+every+project.)](https://deiby.dev)
+### AI-First Software Engineer
+
+I build production software using Spec-Driven Development,<br>
+custom AI workflows, and measurable engineering practices.
+
+Human decisions. AI acceleration. Everything measured.
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_|_Sonnet_|_Haiku-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
 [![OpenCode Go](https://img.shields.io/badge/OpenCode_Go-Multi--Model-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
@@ -16,26 +21,50 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
+## Projects
+
+| Project | Description | Commits | PRs |
+|---------|-------------|--------:|----:|
+| [WodRival](https://github.com/DeibyGS/wodrival) | Competitive fitness platform with Norse mythology theming, RPG progression, and seasonal rankings. Next.js, Supabase, Tailwind | 498 | 237 |
+| [ClaudeStat](https://github.com/DeibyGS/claudestat) | CLI + dashboard for tracking AI development sessions, token usage, and engineering metrics. Published on npm | 173 | 60 |
+| [Conductor](https://github.com/DeibyGS/conductor) | Modular multi-tenant ERP with Kafka microservices. Sales emulator and async consumer pipeline. Python, Docker | 165 | -- |
+| [EvoluFit](https://github.com/DeibyGS/evolufit-mobile) | Cross-platform fitness tracking app with offline sync. React Native, Node.js, MongoDB | 128 | 9 |
+| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI-powered email classification and automated responses using Gemini API. Python, FastAPI | 57 | 24 |
+| [Portfolio](https://github.com/DeibyGS/portfolio) | Personal site with i18n and responsive design. Tailwind | 43 | 13 |
+| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation using pixel scanning and ML Kit OCR for order acceptance. Kotlin | 1 | -- |
+
 ### Currently working on
 
-- Building **WodRival** -- a competitive fitness platform with Norse mythology theming where Warriors compete in Battles across CrossFit, HYROX, and functional training. RPG-inspired progression system where every workout builds your Viking Saga toward Valhalla
-- Designing the **Progression Engine** -- XP, ranks, achievements, and seasonal rewards that transform individual Battles into a long-term competitive journey
+- Designing the **Progression Engine** for WodRival -- XP, ranks, achievements, and seasonal rewards that transform individual Battles into a long-term competitive journey
 - Experimenting with multi-model workflows: Claude Code as primary, OpenCode as secondary
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+
+## Spec-Driven Development (SDD)
+
+Every feature starts with a specification, never with code. The spec defines scope, contracts, edge cases, and acceptance criteria before a single line is written. This is enforced by automated hooks -- not discipline alone.
+
+```
+Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
+```
+
+> *"Human owns architecture. AI accelerates implementation. Measure everything."*
+
+| Rule | How it is enforced |
+|------|-------------------|
+| Spec before code | Hook blocks multi-file changes without prior SDD analysis |
+| Branch-only development | Hook blocks writes to main/master |
+| PR budget: 400 lines | Hook warns on exceed, `/chained-pr` splits into stacked PRs |
+| Tests ship with code | Work-unit commits -- never by file type |
+| Architecture decisions | ADRs documented in each project |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 
 ## Metrics
 
-| | Metric | Value |
-|:---:|--------|-------|
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=github&logoColor=white) | Active development period | January 2026 -- present |
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=git&logoColor=white) | Total commits | 1,068+ |
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=githubactions&logoColor=white) | Pull requests | 343+ |
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=clockify&logoColor=white) | Tracked development hours | 1,000+ |
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=anthropic&logoColor=white) | AI sessions | 1,517+ |
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=openai&logoColor=white) | Models used | 7 across 2 tools |
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=gnubash&logoColor=white) | Custom skills, commands and agents | 50+ |
-| ![](https://img.shields.io/badge/--1a1a2e?style=flat-square&logo=snapcraft&logoColor=white) | Automated hooks | 13 |
+1,000+ hours of AI-assisted engineering across 7 production projects. 1,500+ AI sessions. 1,068 commits. 343 pull requests. 7 models across 2 tools. 50+ custom skills, commands, and agents. 13 automated quality gates protecting branches, PRs, and architecture.
+
+All metrics tracked by [ClaudeStat](https://github.com/DeibyGS/claudestat), a custom-built MCP server and npm package.
 
 ## AI Development Stack
 
@@ -45,8 +74,8 @@
 | **OpenCode Go** | DeepSeek v4 Flash, GLM-5, Mimo v2.5 |
 | **MCP Servers** | ClaudeStat (custom-built), GitHub, Supabase, Engram, Context7, Gmail |
 | **Custom Skills** | 12 commands + 15 knowledge skills (Claude Code) · 8 skills + 5 commands (OpenCode) |
-| **Custom Agents** | 12 specialized agents (Claude Code) · 4 agents (OpenCode) |
-| **Automated Hooks** | 13 hooks across 6 lifecycle events enforcing SDD, branch safety, PR budget, formatting |
+| **Custom Agents** | 12 specialized agents for testing, docs, frontend, backend, DevOps, and architecture reviews |
+| **Automated Hooks** | 13 quality gates across 6 lifecycle events enforcing SDD, branch safety, PR budget, and formatting |
 
 <details>
 <summary><strong>Full AI tooling breakdown</strong></summary>
@@ -104,40 +133,6 @@
 
 </details>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
-
-## Spec-Driven Development (SDD)
-
-Every feature starts with a specification, never with code. The spec defines scope, contracts, edge cases, and acceptance criteria before a single line is written. This is enforced by automated hooks -- not discipline alone.
-
-```
-Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
-```
-
-> *"Human owns architecture. AI accelerates implementation. Measure everything."*
-
-| Rule | How it is enforced |
-|------|-------------------|
-| Spec before code | Hook blocks multi-file changes without prior SDD analysis |
-| Branch-only development | Hook blocks writes to main/master |
-| PR budget: 400 lines | Hook warns on exceed, `/chained-pr` splits into stacked PRs |
-| Tests ship with code | Work-unit commits -- never by file type |
-| Architecture decisions | ADRs documented in each project |
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
-
-## Projects
-
-| Project | Stack | Commits | PRs | Status |
-|---------|-------|--------:|----:|--------|
-| [WodRival](https://github.com/DeibyGS/wodrival) | Next.js, Supabase, Tailwind | 498 | 237 | Active |
-| [ClaudeStat](https://github.com/DeibyGS/claudestat) | Node.js, SQLite, npm package | 173 | 60 | Active |
-| [Conductor](https://github.com/DeibyGS/conductor) | Python, Kafka, Docker | 165 | -- | Active |
-| [EvoluFit](https://github.com/DeibyGS/evolufit-mobile) | React Native, Node.js, React | 128 | 9 | Active |
-| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | Python, SQLite, Gmail API | 57 | 24 | Completed |
-| [Portfolio](https://github.com/DeibyGS/portfolio) | Tailwind, i18n | 43 | 13 | Active |
-| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android, OCR | 1 | -- | In progress |
-
 <details>
 <summary><strong>Education and Experience</strong></summary>
 <br>
@@ -173,8 +168,11 @@ Developer on **Conductor**, a modular multi-tenant ERP with microservices. Respo
 
 <div align="center">
 
-For development metrics and methodology across all projects, see **[ClaudeStat](https://github.com/DeibyGS/claudestat)**.
+Interested in AI-assisted engineering, developer tooling, or production software?
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-deiby.dev-e94560?style=flat-square&logo=safari&logoColor=white)](https://deiby.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-deibygorrin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deibygorrin)
+[![Email](https://img.shields.io/badge/Email-deibygorrin@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:deibygorrin@gmail.com)
 [![npm](https://img.shields.io/npm/v/@statforge/claudestat?style=flat-square&color=1a1a2e&label=ClaudeStat)](https://www.npmjs.com/package/@statforge/claudestat)
 
 *Madrid, Spain -- Available for remote or on-site work*
