@@ -2,12 +2,10 @@
 
 # Deiby Gorrin
 
-### AI-First Software Engineer
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1500&color=C9D1D9&center=true&vCenter=true&width=650&height=35&lines=AI-First+Software+Engineer;Human+decisions.+AI+acceleration.;Measure+everything.+Improve+every+project.)](https://deiby.dev)
 
 I build production software using Spec-Driven Development,<br>
 custom AI workflows, and measurable engineering practices.
-
-Human decisions. AI acceleration. Everything measured.
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_|_Sonnet_|_Haiku-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
 [![OpenCode Go](https://img.shields.io/badge/OpenCode_Go-Multi--Model-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
