@@ -7,7 +7,7 @@
 I build production software using Spec-Driven Development,<br>
 custom AI workflows, and measurable engineering practices.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=3000&pause=1500&color=8b949e&center=true&vCenter=true&width=580&height=25&lines=Human+decisions.+AI+acceleration.+Everything+measured.;Spec+before+code.+Architecture+stays+human.;1%2C000%2B+hours.+7+projects.+50%2B+custom+tools.)](https://deiby.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=3000&pause=1500&color=8b949e&center=true&vCenter=true&width=580&height=25&lines=Human+decisions.+AI+acceleration.+Everything+measured.;Spec+before+code.+Architecture+stays+human.;1%2C000%2B+hours.+9+projects.+50%2B+custom+tools.)](https://deiby.dev)
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Opus_|_Sonnet_|_Haiku-1a1a2e?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/claude-code)
 [![OpenCode Go](https://img.shields.io/badge/OpenCode_Go-Multi--Model-0f3460?style=for-the-badge&logo=terminal&logoColor=white)](https://opencode.ai)
@@ -25,14 +25,17 @@ custom AI workflows, and measurable engineering practices.
 
 | Project | Description | Commits | PRs |
 |---------|-------------|--------:|----:|
-| WodRival | Competitive fitness platform with Norse mythology theming, RPG progression, and seasonal rankings. Next.js, Supabase, Tailwind | 498 | 237 |
-| [ClaudeStat](https://github.com/DeibyGS/claudestat) | CLI + dashboard for tracking AI development sessions, token usage, and engineering metrics. Published on npm | 173 | 60 |
-| Conductor | Modular multi-tenant ERP with Kafka microservices. Sales emulator and async consumer pipeline. Python, Docker | 165 | -- |
-| [EvoluFit](https://github.com/DeibyGS/evolufit-mobile) | Cross-platform fitness tracking app with offline sync. React Native, Node.js, MongoDB | 128 | 9 |
-| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI-powered email classification and automated responses using Gemini API. Python, FastAPI | 57 | 24 |
-| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design. Tailwind | 43 | 13 |
-| [applyr](https://github.com/DeibyGS/applyr) | CLI job application tracker for AI coding agents. 16 commands, configurable scoring, ATS CV generation. Published on PyPI. Python | 1 | -- |
-| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation using pixel scanning and ML Kit OCR for order acceptance. Kotlin | 1 | -- |
+| WodRival _(private)_ | Competitive fitness platform with Norse mythology theming, RPG progression, and seasonal rankings. Next.js, Supabase, Tailwind | 498 | 237 |
+| [ClaudeStat](https://github.com/DeibyGS/claudestat) | CLI + dashboard for tracking AI development sessions, token usage, and engineering metrics. Published on npm | 177 | 64 |
+| Conductor _(private)_ | Modular multi-tenant ERP with Kafka microservices. Sales emulator and async consumer pipeline. Python, Docker | 165 | -- |
+| [EvoluFit Mobile](https://github.com/DeibyGS/evolufit-mobile) | Mobile fitness tracking app with offline sync. React Native, Expo | 30 | 11 |
+| [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | EvolutFit web client: data visualization, community gamification, glassmorphism UI. React 19, Vite | 39 | 2 |
+| [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API for workout management: session logging, 1RM calculation, health metrics, social community. Python, FastAPI | 77 | 4 |
+| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI-powered email classification and automated responses using Gemini API. Python, FastAPI | 62 | 26 |
+| [Questionnaire DAM](https://github.com/DeibyGS/questionnary) | Interactive quiz app for DAM/DAW students to prepare for final exams. TypeScript, Vite | 25 | 1 |
+| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design. Tailwind | 44 | 14 |
+| [applyr](https://github.com/DeibyGS/applyr) | CLI job application tracker for AI coding agents. 16 commands, configurable scoring, ATS CV generation. Published on PyPI. Python | 25 | 10 |
+| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation using pixel scanning and ML Kit OCR for order acceptance. Kotlin | 4 | 2 |
 
 ### Currently working on
 
@@ -64,7 +67,7 @@ Spec --> Branch --> Implement (AI) --> Review (Human) --> Test --> PR --> Merge
 
 ## Metrics
 
-1,000+ hours of AI-assisted engineering across 8 production projects. 1,500+ AI sessions. 1,068 commits. 343 pull requests. 7 models across 2 tools. 50+ custom skills, commands, and agents. 13 automated quality gates protecting branches, PRs, and architecture.
+1,000+ hours of AI-assisted engineering across 9 production projects. 1,500+ AI sessions. 1,068 commits. 343 pull requests. 7 models across 2 tools. 50+ custom skills, commands, and agents. 13 automated quality gates protecting branches, PRs, and architecture.
 
 All metrics tracked by [ClaudeStat](https://github.com/DeibyGS/claudestat), a custom-built MCP server and npm package.
 
