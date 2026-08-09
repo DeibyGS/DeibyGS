@@ -17,23 +17,26 @@ I ship production software with spec-driven AI workflows — human architecture,
 | Project | What it does | Stack | Commits | PRs |
 |---------|-------------|-------|--------:|----:|
 | WodRival _(private)_ | Competitive fitness platform — RPG progression, seasonal rankings, Norse mythology | Next.js, Supabase, Tailwind | 498 | 237 |
-| [ClaudeStat](https://github.com/DeibyGS/claudestat) | CLI + dashboard for tracking AI dev sessions and token usage. [npm](https://www.npmjs.com/package/@statforge/claudestat) | Node.js, TypeScript | 177 | 64 |
+| [ClaudeStat](https://github.com/DeibyGS/claudestat) | Real-time monitor for AI dev sessions — cost, tokens, quota, MCP server. [npm](https://www.npmjs.com/package/@statforge/claudestat) | Node.js, TypeScript | 180 | 64 |
 | Conductor _(private)_ | Multi-tenant ERP with Kafka microservices and async consumer pipeline | Python, FastAPI, Docker | 165 | -- |
+| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI — scoring, ATS CVs, duplicate detection. [PyPI](https://pypi.org/project/applyr/) | Python, SQLite | 57 | 10 |
+| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | Python, Gemini API | 62 | 26 |
 | [EvoluFit Mobile](https://github.com/DeibyGS/evolufit-mobile) | Fitness tracking with offline sync | React Native, Expo | 30 | 11 |
 | [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | Data visualization, community gamification, glassmorphism UI | React 19, Vite | 39 | 2 |
 | [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API — session logging, 1RM calc, health metrics, social | Python, FastAPI | 77 | 4 |
-| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | Python, Gemini API | 62 | 26 |
-| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI for AI coding agents. [PyPI](https://pypi.org/project/applyr/) | Python | 25 | 10 |
 | [Questionnaire](https://github.com/DeibyGS/questionnary) | Interactive quiz app for DAM/DAW exam prep | TypeScript, Vite | 25 | 1 |
 | [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design | Tailwind | 44 | 14 |
 | [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation — pixel scanning + ML Kit OCR | Kotlin | 4 | 2 |
+
+> **Also:** [claudestat-mcp-bundle](https://github.com/DeibyGS/claudestat-mcp-bundle) (standalone MCP server for ClaudeStat) · [claudestat-alert-slack](https://github.com/DeibyGS/claudestat-alert-slack) (Slack alerting) · [claudestat-exporter-prometheus](https://github.com/DeibyGS/claudestat-exporter-prometheus) (Prometheus exporter)
 
 &nbsp;
 
 ## Right Now
 
-- Building the **Progression Engine** for WodRival — XP, ranks, achievements, seasonal rewards
-- Experimenting with **multi-model workflows**: Claude Code (primary) + OpenCode (secondary)
+- **Looking for opportunities** — junior/fullstack roles with AI focus
+- Maintaining **claudestat** (npm) and **applyr** (PyPI) — open source developer tools
+- Building **WodRival** — competitive fitness platform with real-time leaderboards
 
 &nbsp;
 
@@ -42,10 +45,19 @@ I ship production software with spec-driven AI workflows — human architecture,
 | | |
 |:--|:--|
 | **1,000+ hours** of AI-assisted engineering | **1,500+ sessions** across 9 production projects |
-| **1,068 commits** · **343 pull requests** | **7 models** across 2 tools |
-| **50+ custom tools** — skills, commands, agents | **13 automated hooks** protecting branches and PRs |
+| **1,100+ commits** · **350+ pull requests** | **7 models** across 2 tools |
+| **Published on npm + PyPI** | **13 automated hooks** protecting branches and PRs |
+| **296 tests** in applyr · **665 tests** in WodRival | **50+ custom tools** — skills, commands, agents |
 
 All metrics tracked by [ClaudeStat](https://github.com/DeibyGS/claudestat).
+
+&nbsp;
+
+## Publications
+
+**Claude Code from Zero** — Amazon KDP (August 2026)  
+Practical guide to AI-assisted software development with Claude Code.  
+[![Amazon](https://img.shields.io/badge/Amazon-KDP-FF9900?style=flat-square&logo=amazon&logoColor=white)](https://www.amazon.com/dp/B0D7YHZ5W2)
 
 &nbsp;
 
