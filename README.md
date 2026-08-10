@@ -63,11 +63,39 @@ Practical guide to AI-assisted software development with Claude Code.
 
 ## How I Work
 
-Every feature starts with a spec, never with code. Scope, contracts, edge cases, and acceptance criteria — defined before implementation, enforced by automated hooks.
+Spec-driven, not vibe-driven. Every feature starts as a living spec and runs through human gates that close the loop with drift detection — it's a feedback cycle, not a one-way pipeline. The spec is the source of truth; the AI implements, but my architecture and scope decisions stay human.
 
+```mermaid
+flowchart LR
+    C[Constitution<br/>immutable rules] --> S[Specify<br/>assumptions first]
+    S --> A[Assumptions Surface<br/>AI declares implicit choices]
+    A --> S
+    S -->|HUMAN GATE| P[Plan<br/>data-model + contracts]
+    P -->|contracts LOCKED| T[Tasks<br/>atomic, test-first]
+    T -->|HUMAN GATE| I[Implement<br/>AI, constrained by spec]
+    I --> V[Validate<br/>traceability + drift]
+    V -->|drift found| AM[/sdd:amend/]
+    AM --> S
+    V -->|all MUST pass| M[PR → Merge]
 ```
-Spec  →  Branch  →  Implement (AI)  →  Review (Human)  →  Test  →  PR  →  Merge
-```
+
+Without a spec, the AI makes thousands of micro-decisions silently. With one, those decisions are made explicitly by me — before a single line of code — and validated instead of trusted.
+
+**MoSCoW priorities** — every acceptance criterion is one of these:
+
+| Priority | Meaning | Ships |
+|----------|---------|:-----:|
+| `[MUST]` | Non-negotiable, testable, locked | Always |
+| `[SHOULD]` | Expected if scope holds | When cheap |
+| `[COULD]` | Nice to have, optional | When time allows |
+| `[WONT]` | Explicitly out of scope | Never |
+
+**The tradeoff I accept:**
+
+- **+** An extra hour writing a spec saves three days of agent thrash (GitHub Engineering)
+- **+** Contracts freeze after planning — no signature drift mid-build
+- **+** Validate catches drift early: mismatched contracts, schema, untested `[MUST]` ACs
+- **−** Spec-first costs time before code exists — I skip it for one-line fixes and throwaway spikes
 
 &nbsp;
 
