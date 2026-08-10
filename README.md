@@ -35,8 +35,8 @@ I ship production software with spec-driven AI workflows — human architecture,
 ## Right Now
 
 - **Looking for opportunities** — junior/fullstack roles with AI focus
-- Maintaining **claudestat** (npm) and **applyr** (PyPI) — open source developer tools
-- Building **WodRival** — competitive fitness platform with real-time leaderboards
+- Maintaining [**claudestat**](https://www.npmjs.com/package/@statforge/claudestat) and [**applyr**](https://pypi.org/project/applyr/) — open source developer tools
+- Building **WodRival** — competitive training where every workout is a scored Battle. Norse RPG progression: earn Runes, climb Viking Ranks, leave a permanent Legacy in Valhalla
 
 &nbsp;
 
