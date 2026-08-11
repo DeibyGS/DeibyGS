@@ -46,7 +46,7 @@ I ship production software with spec-driven AI workflows — human architecture,
 |:--|:--|
 | **1,000+ hours** of AI-assisted engineering | **1,500+ sessions** across 9 production projects |
 | **1,100+ commits** · **350+ pull requests** | **7 models** across 2 tools |
-| **Published on npm + PyPI** | **13 automated hooks** protecting branches and PRs |
+| **Published on npm + PyPI** | **19 automated hooks** protecting branches, PRs and high-risk code |
 | **296 tests** in applyr · **665 tests** in WodRival | **50+ custom tools** — skills, commands, agents |
 
 All metrics tracked by [ClaudeStat](https://github.com/DeibyGS/claudestat).
@@ -76,7 +76,10 @@ flowchart LR
     I --> V[Validate<br/>traceability + drift]
     V -->|drift found| AM[/sdd:amend/]
     AM --> S
-    V -->|all MUST pass| M[PR → Merge]
+    V -->|low risk| M[PR → Merge]
+    V -->|high risk| X[Adversarial Verify<br/>fresh context, contract only]
+    X -->|defect found| AM
+    X -->|no defect| M
 ```
 
 Without a spec, the AI makes thousands of micro-decisions silently. With one, those decisions are made explicitly by me — before a single line of code — and validated instead of trusted.
@@ -99,6 +102,25 @@ Without a spec, the AI makes thousands of micro-decisions silently. With one, th
 
 &nbsp;
 
+### Two testers, on purpose
+
+Tests written by whoever just read the implementation only prove the code does what it does — not what it should. That's circular verification, and it's the most common failure mode of AI-written tests.
+
+So high-risk changes get a second pass from a verifier that runs in a **fresh context and never sees the diff** — only the acceptance criteria, the file paths and the public signatures. Independence is enforced structurally, not requested politely.
+
+| | Standard tester | Adversarial verifier |
+|---|---|---|
+| Source of truth | The modified files | The acceptance criteria |
+| Sees the implementation | Yes | **No — by design** |
+| Goal | Cover the behavior | Falsify it |
+| On failure | Pipeline blocked | Logged as `BUG-XXX`, PR continues |
+
+Findings deliberately **don't** block the merge: blocking creates pressure to weaken the test, which is the one thing the verifier is forbidden to do. They ship as reports and get fixed in a separate PR.
+
+No acceptance criteria, no run — without a contract it degrades into reading the code and testing what it already does. The gate is narrow on purpose: auth · money · data integrity · migrations · state machines · idempotency · offline sync. Everything else skips it.
+
+&nbsp;
+
 <details>
 <summary><strong>AI Stack, Tooling & Background</strong></summary>
 <br>
@@ -107,14 +129,17 @@ Without a spec, the AI makes thousands of micro-decisions silently. With one, th
 
 | Layer | Details |
 |-------|---------|
-| **Primary** | Claude Code — Opus 4.6, Sonnet 4.6, Haiku 4.5 |
+| **Primary** | Claude Code — Opus 5, Sonnet 5, Haiku 4.5 |
 | **Secondary** | OpenCode Go — DeepSeek v4 Flash, GLM-5, Mimo v2.5 |
 | **MCP Servers** | ClaudeStat (custom), GitHub, Supabase, Engram, Context7, Gmail |
-| **Custom Skills** | 12 commands + 15 knowledge skills (CC) · 8 skills + 5 commands (OC) |
-| **Custom Agents** | 12 specialized — testing, docs, frontend, backend, DevOps, architecture |
-| **Hooks** | 13 quality gates across 6 lifecycle events |
+| **Custom Skills** | 12 commands + 1 custom skill · 52 curated knowledge skills (CC) · 8 skills + 5 commands (OC) |
+| **Custom Agents** | 12 definitions — 11 specialized (backend, frontend, DB, DevOps, testing, adversarial verification, docs, git, design, planning) + 1 orchestrator |
+| **Hooks** | 19 quality gates across 6 lifecycle events |
+| **Project contexts** | 7 — per-repo stack, conventions and gotchas loaded on demand |
 
-Key commands: `sdd` (spec-driven dev) · `dev` (pipeline orchestrator) · `git` (safe operations) · `chained-pr` (split large PRs) · `day-start`/`day-close` (session persistence)
+Key commands: `sdd` (spec-driven dev) · `dev` (pipeline orchestrator) · `git` (safe operations) · `chained-pr` (split large PRs) · `adversarial-test` (hostile verification) · `day-start`/`day-close` (session persistence)
+
+The hooks are the part that actually holds. Rules I have to remember get forgotten; rules the harness enforces don't. Editing a file matching `auth|permission|migration|billing|…` fires the adversarial gate automatically, and a PR over 500 changed lines triggers a split before it's opened — neither depends on me noticing.
 
 &nbsp;
 
