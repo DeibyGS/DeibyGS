@@ -16,17 +16,17 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 | Project | What it does | Stack | Commits | PRs |
 |---------|-------------|-------|--------:|----:|
-| WodRival _(private)_ | Competitive fitness platform — RPG progression, seasonal rankings, Norse mythology | Next.js, Supabase, Tailwind | 498 | 237 |
-| [ClaudeStat](https://github.com/DeibyGS/claudestat) | Real-time monitor for AI dev sessions — cost, tokens, quota, MCP server. [npm](https://www.npmjs.com/package/@statforge/claudestat) | Node.js, TypeScript | 180 | 64 |
-| Conductor _(private)_ | Multi-tenant ERP with Kafka microservices and async consumer pipeline | Python, FastAPI, Docker | 165 | -- |
-| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI — scoring, ATS CVs, duplicate detection. [PyPI](https://pypi.org/project/applyr/) | Python, SQLite | 57 | 10 |
-| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | Python, Gemini API | 62 | 26 |
-| [EvoluFit Mobile](https://github.com/DeibyGS/evolufit-mobile) | Fitness tracking with offline sync | React Native, Expo | 30 | 11 |
-| [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | Data visualization, community gamification, glassmorphism UI | React 19, Vite | 39 | 2 |
-| [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API — session logging, 1RM calc, health metrics, social | Python, FastAPI | 77 | 4 |
-| [Questionnaire](https://github.com/DeibyGS/questionnary) | Interactive quiz app for DAM/DAW exam prep | TypeScript, Vite | 25 | 1 |
-| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design | Tailwind | 44 | 14 |
-| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation — pixel scanning + ML Kit OCR | Kotlin | 4 | 2 |
+| WodRival _(private)_ | Competitive fitness platform — RPG progression, seasonal rankings, Norse mythology | Next.js, Supabase, Tailwind, TypeScript | 502 | 0 |
+| [ClaudeStat](https://github.com/DeibyGS/claudestat) | Real-time monitor for AI dev sessions — cost, tokens, quota, MCP server. [npm](https://www.npmjs.com/package/@statforge/claudestat) | Node.js, TypeScript, MCP | 195 | 0 |
+| Conductor _(private)_ | Multi-tenant ERP with Kafka microservices and async consumer pipeline | Python, FastAPI, Docker, Kafka | 167 | 0 |
+| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI — scoring, ATS CVs, duplicate detection. [PyPI](https://pypi.org/project/applyr/) | Python, SQLite, Typer | 107 | 0 |
+| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | TypeScript, Node.js, Gemini API | 64 | 0 |
+| [EvoluFit Mobile](https://github.com/DeibyGS/evolufit-mobile) | Fitness tracking with offline sync | React Native, Expo, TypeScript | 34 | 0 |
+| [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | Data visualization, community gamification, glassmorphism UI | React 19, Vite, TypeScript | 43 | 0 |
+| [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API — session logging, 1RM calc, health metrics, social | Python, FastAPI, PostgreSQL | 81 | 0 |
+| [Questionnaire](https://github.com/DeibyGS/questionnary) | Interactive quiz app for DAM/DAW exam prep | TypeScript, Vite, SCSS | 30 | 0 |
+| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design | Astro, Tailwind, TypeScript | 49 | 0 |
+| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation — pixel scanning + ML Kit OCR | Kotlin, ML Kit, Jetpack Compose | 8 | 0 |
 
 > **Also:** [claudestat-mcp-bundle](https://github.com/DeibyGS/claudestat-mcp-bundle) (standalone MCP server for ClaudeStat) · [claudestat-alert-slack](https://github.com/DeibyGS/claudestat-alert-slack) (Slack alerting) · [claudestat-exporter-prometheus](https://github.com/DeibyGS/claudestat-exporter-prometheus) (Prometheus exporter)
 
@@ -44,8 +44,8 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 | | |
 |:--|:--|
-| **1,000+ hours** of AI-assisted engineering | **1,500+ sessions** across 9 production projects |
-| **1,100+ commits** · **350+ pull requests** | **7 models** across 2 tools |
+| **1,000+ hours** of AI-assisted engineering | **1,500+ sessions** across 11 production projects |
+| **1,280+ commits** · **0 pull requests** (direct commits) | **7 models** across 2 tools |
 | **Published on npm + PyPI** | **19 automated hooks** protecting branches, PRs and high-risk code |
 | **296 tests** in applyr · **665 tests** in WodRival | **50+ custom tools** — skills, commands, agents |
 
