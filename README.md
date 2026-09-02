@@ -74,7 +74,7 @@ flowchart LR
     P -->|contracts LOCKED| T[Tasks<br/>atomic, test-first]
     T -->|HUMAN GATE| I[Implement<br/>AI, constrained by spec]
     I --> V[Validate<br/>traceability + drift]
-    V -->|drift found| AM[/sdd:amend/]
+    V -->|drift found| AM[/Amend<br/>same command, auto-detected/]
     AM --> S
     V -->|low risk| M[PR → Merge]
     V -->|high risk| X[Adversarial Verify<br/>fresh context, contract only]
@@ -83,6 +83,16 @@ flowchart LR
 ```
 
 Without a spec, the AI makes thousands of micro-decisions silently. With one, those decisions are made explicitly by me — before a single line of code — and validated instead of trusted.
+
+Not tied to one vendor's magic, either: I run this pipeline in two different AI coding tools side by side, from one shared template source — a feature can start in one and finish in the other without translating anything.
+
+```mermaid
+flowchart LR
+    T[("Shared templates<br/>constitution · spec · plan · tasks")]
+    T --> CC["Claude Code — /sdd"]
+    T --> OC["OpenCode — /sdd"]
+    CC <-.->|same repo,<br/>same spec files| OC
+```
 
 **MoSCoW priorities** — every acceptance criterion is one of these:
 
