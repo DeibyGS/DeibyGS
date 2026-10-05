@@ -6,7 +6,7 @@
 
 I ship production software with spec-driven AI workflows — human architecture, AI acceleration, everything measured.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3000&pause=1500&color=6e7681&center=true&vCenter=true&width=450&height=22&lines=Spec+before+code.+Architecture+stays+human.;1%2C000%2B+hours+of+AI-assisted+engineering.)](https://deiby.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3000&pause=1500&color=6e7681&center=true&vCenter=true&width=450&height=22&lines=Spec+before+code.+Architecture+stays+human.;1%2C400%2B+hours+of+AI-assisted+engineering.)](https://deiby.dev)
 
 </div>
 
@@ -16,17 +16,18 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 | Project | What it does | Stack | Commits | PRs | ⭐ |
 |---------|-------------|-------|--------:|----:|----:|
-| WodRival _(private)_ | Competitive fitness platform — RPG progression, seasonal rankings, Norse mythology | Next.js, Supabase, Tailwind, TypeScript | 503 | 242 | — |
+| WodRival _(private)_ | Competitive fitness platform — RPG progression, seasonal rankings, Norse mythology | Next.js, Supabase, Tailwind, TypeScript | 573 | 312 | — |
 | [ClaudeStat](https://github.com/DeibyGS/claudestat) | Real-time monitor for AI dev sessions — cost, tokens, quota, MCP server. [npm](https://www.npmjs.com/package/@statforge/claudestat) | Node.js, TypeScript, MCP | 198 | 80 | 34 |
-| Conductor _(private)_ | Multi-tenant ERP with Kafka microservices and async consumer pipeline | Python, FastAPI, Docker, Kafka | 167 | 1 | — |
-| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI — scoring, ATS CVs, duplicate detection. [PyPI](https://pypi.org/project/applyr/) | Python, SQLite, Typer | 131 | 123 | 4 |
-| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | TypeScript, Node.js, Gemini API | 64 | 27 | 0 |
-| [EvoluFit Mobile](https://github.com/DeibyGS/evolufit-mobile) | Fitness tracking with offline sync | React Native, Expo, TypeScript | 34 | 13 | 0 |
-| [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | Data visualization, community gamification, glassmorphism UI | React 19, Vite, TypeScript | 43 | 4 | 0 |
-| [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API — session logging, 1RM calc, health metrics, social | Python, FastAPI, PostgreSQL | 81 | 6 | 0 |
+| Conductor _(private)_ | Multi-tenant ERP with Kafka microservices and async consumer pipeline | Python, FastAPI, Docker, Kafka | 169 | 3 | — |
+| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI — scoring, ATS CVs, duplicate detection. [PyPI](https://pypi.org/project/applyr/) | Python, SQLite, Typer | 148 | 158 | 4 |
+| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | TypeScript, Node.js, Gemini API | 65 | 28 | 0 |
+| [EvoluFit Mobile](https://github.com/DeibyGS/evolufit-mobile) | Fitness tracking with offline sync | React Native, Expo, TypeScript | 35 | 14 | 0 |
+| [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | Data visualization, community gamification, glassmorphism UI | React 19, Vite, TypeScript | 44 | 5 | 0 |
+| [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API — session logging, 1RM calc, health metrics, social | Python, FastAPI, PostgreSQL | 82 | 7 | 0 |
 | [Questionnaire](https://github.com/DeibyGS/questionnary) | Interactive quiz app for DAM/DAW exam prep | TypeScript, Vite, SCSS | 30 | 3 | 2 |
-| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design | Astro, Tailwind, TypeScript | 49 | 19 | 0 |
-| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation — pixel scanning + ML Kit OCR | Kotlin, ML Kit, Jetpack Compose | 8 | 4 | 0 |
+| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design | Astro, Tailwind, TypeScript | 53 | 23 | 0 |
+| [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation — pixel scanning + ML Kit OCR | Kotlin, ML Kit, Jetpack Compose | 10 | 6 | 0 |
+| [TechToJob Landing](https://github.com/DeibyGS/TechToJob-Landing) | Competition landing for Torneo #2 — animated, i18n | Next.js, React 19, Tailwind, TypeScript | 26 | 25 | 1 |
 
 > **Also:** [claudestat-mcp-bundle](https://github.com/DeibyGS/claudestat-mcp-bundle) (standalone MCP server for ClaudeStat) · [claudestat-alert-slack](https://github.com/DeibyGS/claudestat-alert-slack) (Slack alerting) · [claudestat-exporter-prometheus](https://github.com/DeibyGS/claudestat-exporter-prometheus) (Prometheus exporter)
 
@@ -44,8 +45,8 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 | | |
 |:--|:--|
-| **1,000+ hours** of AI-assisted engineering | **1,500+ sessions** across 11 production projects |
-| **1,286+ commits** · **522+ pull requests** | **7 models** across 2 tools |
+| **1,400+ hours** of AI-assisted engineering | **2,500+ sessions** across 12 production projects |
+| **1,433 commits** · **664 pull requests** | **7 models** across 2 tools |
 | **Published on npm + PyPI** | **19 automated hooks** protecting branches, PRs and high-risk code |
 | **944 tests** in applyr · **659 tests** in WodRival | **50+ custom tools** — skills, commands, agents |
 
