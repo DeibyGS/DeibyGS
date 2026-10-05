@@ -6,7 +6,7 @@
 
 I ship production software with spec-driven AI workflows — human architecture, AI acceleration, everything measured.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3000&pause=1500&color=6e7681&center=true&vCenter=true&width=450&height=22&lines=Spec+before+code.+Architecture+stays+human.;1%2C400%2B+hours+of+AI-assisted+engineering.)](https://deiby.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3000&pause=1500&color=6e7681&center=true&vCenter=true&width=450&height=22&lines=Spec+before+code.+Architecture+stays+human.;1%2C500%2B+hours+of+AI-assisted+engineering.)](https://deiby.dev)
 
 </div>
 
@@ -45,7 +45,7 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 | | |
 |:--|:--|
-| **1,400+ hours** of AI-assisted engineering | **2,500+ sessions** across 12 production projects |
+| **1,500+ hours** of AI-assisted engineering | **3,000+ sessions** across 12 production projects |
 | **1,433 commits** · **664 pull requests** | **7 models** across 2 tools |
 | **Published on npm + PyPI** | **19 automated hooks** protecting branches, PRs and high-risk code |
 | **944 tests** in applyr · **659 tests** in WodRival | **50+ custom tools** — skills, commands, agents |
