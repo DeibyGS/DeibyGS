@@ -2,11 +2,11 @@
 
 # Deiby Gorrin
 
-**AI-First Software Engineer**
+**Junior Python & TypeScript Developer · AI & LLM applications · open source maintainer (applyr, ClaudeStat)**
 
-I ship production software with spec-driven AI workflows — human architecture, AI acceleration, everything measured.
+I build tools for AI-assisted development with spec-driven workflows — human architecture, AI acceleration, everything measured.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3000&pause=1500&color=6e7681&center=true&vCenter=true&width=450&height=22&lines=Spec+before+code.+Architecture+stays+human.;1%2C500%2B+hours+of+AI-assisted+engineering.)](https://deiby.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3000&pause=1500&color=6e7681&center=true&vCenter=true&width=450&height=22&lines=Spec+before+code.+Architecture+stays+human.;3%2C100%2B+AI+agent+sessions+logged.)](https://deiby.dev)
 
 </div>
 
@@ -16,16 +16,16 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 | Project | What it does | Stack | Commits | PRs | ⭐ |
 |---------|-------------|-------|--------:|----:|----:|
-| WodRival _(private)_ | Competitive fitness platform — RPG progression, seasonal rankings, Norse mythology | Next.js, Supabase, Tailwind, TypeScript | 573 | 312 | — |
+| WodRival _(private)_ | Competitive fitness SaaS — scored workouts, live leaderboards, seasonal leagues, club management | Next.js, Supabase, Tailwind, TypeScript | 705 | 446 | — |
 | [ClaudeStat](https://github.com/DeibyGS/claudestat) | Real-time monitor for AI dev sessions — cost, tokens, quota, MCP server. [npm](https://www.npmjs.com/package/@statforge/claudestat) | Node.js, TypeScript, MCP | 198 | 80 | 34 |
 | Conductor _(private)_ | Multi-tenant ERP with Kafka microservices and async consumer pipeline | Python, FastAPI, Docker, Kafka | 169 | 3 | — |
-| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI — scoring, ATS CVs, duplicate detection. [PyPI](https://pypi.org/project/applyr/) | Python, SQLite, Typer | 148 | 158 | 4 |
-| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | TypeScript, Node.js, Gemini API | 65 | 28 | 0 |
+| [applyr](https://github.com/DeibyGS/applyr) | Job application tracker CLI — scoring, ATS CVs, duplicate detection. [PyPI](https://pypi.org/project/applyr/) | Python, SQLite, stdlib CLI | 156 | 166 | 4 |
+| [Gmail AI Agent](https://github.com/DeibyGS/gmail-ai-agent) | AI email classification and automated responses | Python, FastAPI, React, TypeScript, Gemini | 65 | 28 | 0 |
 | [EvoluFit Mobile](https://github.com/DeibyGS/evolufit-mobile) | Fitness tracking with offline sync | React Native, Expo, TypeScript | 35 | 14 | 0 |
-| [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | Data visualization, community gamification, glassmorphism UI | React 19, Vite, TypeScript | 44 | 5 | 0 |
-| [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API — session logging, 1RM calc, health metrics, social | Python, FastAPI, PostgreSQL | 82 | 7 | 0 |
+| [EvoluFit Frontend](https://github.com/DeibyGS/evolufit-frontend) | Data visualization, community gamification, glassmorphism UI | React 19, Vite, JavaScript, SCSS | 44 | 5 | 0 |
+| [EvoluFit Backend](https://github.com/DeibyGS/evolufit-backend) | REST API — session logging, 1RM calc, health metrics, social | Node.js, Express, MongoDB | 82 | 7 | 0 |
 | [Questionnaire](https://github.com/DeibyGS/questionnary) | Interactive quiz app for DAM/DAW exam prep | TypeScript, Vite, SCSS | 30 | 3 | 2 |
-| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | Personal site with i18n and responsive design | Astro, Tailwind, TypeScript | 53 | 23 | 0 |
+| [Portfolio](https://github.com/DeibyGS/dev-portfolio-deiby) | deiby.dev — terminal-style personal site, bilingual ES/EN | React 19, Vite, Tailwind, JavaScript | 53 | 23 | 0 |
 | [CatcherAuto](https://github.com/DeibyGS/CatcherAuto) | Android automation — pixel scanning + ML Kit OCR | Kotlin, ML Kit, Jetpack Compose | 10 | 6 | 0 |
 | [TechToJob Landing](https://github.com/DeibyGS/TechToJob-Landing) | Competition landing for Torneo #2 — animated, i18n | Next.js, React 19, Tailwind, TypeScript | 26 | 25 | 1 |
 
@@ -37,7 +37,7 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 - **Looking for opportunities** — junior/fullstack roles with AI focus
 - Maintaining [**claudestat**](https://www.npmjs.com/package/@statforge/claudestat) and [**applyr**](https://pypi.org/project/applyr/) — open source developer tools
-- Building **WodRival** — competitive training where every workout is a scored Battle. Norse RPG progression: earn Runes, climb Viking Ranks, leave a permanent Legacy in Valhalla
+- Building **WodRival** — a competitive fitness SaaS (CrossFit / Hyrox): every workout is scored, ranked and comparable, with live leaderboards, seasonal leagues, club management and Stripe subscriptions
 
 &nbsp;
 
@@ -45,10 +45,10 @@ I ship production software with spec-driven AI workflows — human architecture,
 
 | | |
 |:--|:--|
-| **1,500+ hours** of AI-assisted engineering | **3,000+ sessions** across 12 production projects |
-| **1,433 commits** · **664 pull requests** | **7 models** across 2 tools |
-| **Published on npm + PyPI** | **19 automated hooks** protecting branches, PRs and high-risk code |
-| **944 tests** in applyr · **659 tests** in WodRival | **50+ custom tools** — skills, commands, agents |
+| **3,100+ AI agent sessions** across 23 projects | **1,758 commits** · **806 pull requests** |
+| **7 models** across 2 tools | **Published on npm + PyPI** |
+| **19 automated hooks** protecting branches, PRs and high-risk code | **50+ custom tools** — skills, commands, agents |
+| **1,230 tests** in applyr · **2,952 tests** in WodRival | **41 ⭐** across public repos |
 
 All metrics tracked by [ClaudeStat](https://github.com/DeibyGS/claudestat).
 
@@ -58,7 +58,7 @@ All metrics tracked by [ClaudeStat](https://github.com/DeibyGS/claudestat).
 
 **Claude Code from Zero** — Amazon KDP (August 2026)  
 Practical guide to AI-assisted software development with Claude Code.  
-[![Amazon](https://img.shields.io/badge/Amazon-KDP-FF9900?style=flat-square&logo=amazon&logoColor=white)](https://www.amazon.com/dp/B0D7YHZ5W2)
+[![Amazon](https://img.shields.io/badge/Amazon-KDP-FF9900?style=flat-square&logo=amazon&logoColor=white)](https://www.amazon.com/dp/B0HDQBMCGR)
 
 &nbsp;
 
@@ -160,6 +160,7 @@ The hooks are the part that actually holds. Rules I have to remember get forgott
 |-----------|------------|--------|
 | Grado Superior DAM | The Power, Madrid | Completed 2026 |
 | Master Web Full Stack | The Power, Madrid | Completed 2026 |
+| Máster AI Engineer | The Power, Madrid | In progress (since Aug 2026) |
 | Professional Uses of Generative AI | BeJob, IBM | Completed |
 | Oracle SQL-PL/SQL Developer | Cas-Training, Madrid | Completed |
 
